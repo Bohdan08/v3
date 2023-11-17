@@ -1,14 +1,15 @@
 import React from "react";
-import { LINK_STYLE } from "./styles";
 
 export default function Footer() {
+  const LINK_STYLE =
+    "font-medium text-slate-400 hover:text-blue-400 focus-visible:text-blue-400";
   return (
     <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
       <p>
         Built this website after I&apos;ve got an inspiration from{" "}
         <a
           href="https://brittanychiang.com"
-          className="font-medium text-slate-400 hover:text-blue-300 focus-visible:text-blue-300"
+          className={LINK_STYLE}
           target="_blank"
           rel="noreferrer"
         >
