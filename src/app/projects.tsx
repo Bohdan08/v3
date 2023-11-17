@@ -6,7 +6,7 @@ const PROJECTS_LIST = [
     title: "TheTenn",
     link: "https://www.thetenn.com",
     description: `Web app (20,000+ unique users) 
-                  that promotes a new banking system in the USA.`,
+                  that promotes a new financial system in the USA.`,
 
     imgLink: "/thetenn.webp",
     technologies: [
