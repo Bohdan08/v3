@@ -59,7 +59,7 @@ export default function Projects() {
                         <div className="block sm:hidden">
                           <a
                             className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-blue-300 focus-visible:text-blue-300 hover:text-slate-200 focus-visible:text-blue-300 sm:hidden group/link text-base"
-                            href="https://starry.com/blog/product/whats-new-screentime-just-got-better-for-parents"
+                            href={link}
                             target="_blank"
                             rel="noreferrer"
                             aria-label="Screentime 2.0"
