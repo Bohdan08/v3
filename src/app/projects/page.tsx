@@ -164,7 +164,7 @@ const PROJECTS_LIST = [
       "TypeScript",
       "Tailwind CSS",
     ],
-    link: "/",
+    link: "https://www.bohdanmartyniuk.com",
     source: {
       provider: "Github",
       link: "https://github.com/bohdan08/v3",
@@ -252,7 +252,7 @@ const PROJECTS_LIST = [
     year: 2021,
     project: "Personal Portfolio V2",
     technologies: ["React", "Gatsby", "JavaScript", "Tailwind CSS"],
-    link: "https://www.bohdanmartyniuk.com",
+    link: "https://www.bohdanmartyniukv2.com",
     source: {
       provider: "Github",
       link: "https://github.com/bohdan08/portfolioV2",

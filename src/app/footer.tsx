@@ -38,12 +38,12 @@ export default function Footer() {
         </a>
         , deployed with{" "}
         <a
-          href="https://vercel.com/"
+          href="https://www.netlify.com"
           className={LINK_STYLE}
           target="_blank"
           rel="noreferrer"
         >
-          Vercel
+          Netlify
         </a>
         . All text is set in the{" "}
         <a
