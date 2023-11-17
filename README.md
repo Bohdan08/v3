@@ -15,7 +15,7 @@
   <a href="https://brittanychiang.com" target="_blank">Brittanychiang.com</a>. 
   </br>
 
-<a href="https://www.bohdanmartyniuk.com" target="_blank">Bohdanmartyniuk.com</a> built with <a href="https://nextjs.org" target="_blank">Next.js</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify
+<a href="https://www.bohdanmartyniuk.com" target="_blank">The portfolio</a> was built with <a href="https://nextjs.org" target="_blank">Next.js</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify.
 </a>
 
 </p>
