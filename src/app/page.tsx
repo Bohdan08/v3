@@ -3,6 +3,7 @@ import Header from "./header";
 import About from "./about";
 import Experience from "./experience";
 import Projects from "./projects";
+import Footer from "./footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <About />
         <Experience />
         <Projects />
+        <Footer />
       </main>
     </div>
   );

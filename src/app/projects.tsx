@@ -131,17 +131,17 @@ export default function Projects() {
         <div className="mt-12">
           <a
             className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
-            aria-label="View Full Project Archive"
-            href="/archive"
+            aria-label="View More Projects"
+            href="/projects"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-blue-300 motion-reduce:transition-none">
-                View Full Project{" "}
+                View More Projects{" "}
               </span>
               <span className="whitespace-nowrap">
-                <span className="border-b border-transparent pb-px transition group-hover:border-blue-300 motion-reduce:transition-none">
+                {/* <span className="border-b border-transparent pb-px transition group-hover:border-blue-300 motion-reduce:transition-none">
                   Archive
-                </span>
+                </span> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
