@@ -158,7 +158,7 @@ const PROJECTS_LIST = [
     year: 2023,
     project: "Management App",
     technologies: ["React", "JavaScript", "Bootstrap", "Graphql", "Mongodb"],
-    link: "",
+    link: "https://illustrious-puppy-712788.netlify.app",
     source: {
       provider: "Github",
       link: "https://github.com/bohdan08/graphql-management-app",
