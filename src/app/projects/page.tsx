@@ -156,6 +156,16 @@ const HEADER_LIST = ["Year", "Project", "Tech", "Link", "Source"];
 const PROJECTS_LIST = [
   {
     year: 2023,
+    project: "Management App",
+    technologies: ["React", "JavaScript", "Bootstrap", "Graphql", "Mongodb"],
+    link: "",
+    source: {
+      provider: "Github",
+      link: "https://github.com/bohdan08/graphql-management-app",
+    },
+  },
+  {
+    year: 2023,
     project: "Personal Portfolio V3",
     technologies: [
       "Next.js",
