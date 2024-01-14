@@ -35,9 +35,16 @@ const PROJECTS_LIST = [
     ],
   },
   {
+    title: "Pesto",
+    link: "https://join.getpesto.com",
+    description: `The first credit card that can be secured with valuables or cash as collateral.`,
+    imgLink: "/pesto.png",
+    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
+  },
+  {
     title: "ProEmailer",
     link: "https://pro-stack-landing-page.vercel.app",
-    description: `Web app that promotes AI powered startup that helps people to handle their emails.`,
+    description: `AI powered startup that helps people to handle their emails.`,
     imgLink: "/proStack.webp",
     technologies: [
       "React",
