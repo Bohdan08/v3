@@ -2,23 +2,23 @@ import Image from "next/image";
 import React from "react";
 
 const PROJECTS_LIST = [
-  {
-    title: "TheTenn",
-    link: "https://www.thetenn.com",
-    description: `Web app (20,000+ unique users) 
-                  that promotes a new financial system in the USA.`,
+  // {
+  //   title: "TheTenn",
+  //   link: "https://www.thetenn.com",
+  //   description: `Web app (20,000+ unique users) 
+  //                 that promotes a new financial system in the USA.`,
 
-    imgLink: "/thetenn.webp",
-    technologies: [
-      "React",
-      "Next.js",
-      "JavaScript",
-      "TypeScript",
-      "Tailwind",
-      "Firebase",
-      "Mailchimp",
-    ],
-  },
+  //   imgLink: "/thetenn.webp",
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "Tailwind",
+  //     "Firebase",
+  //     "Mailchimp",
+  //   ],
+  // },
   {
     title: "Olympic Combat",
     link: "https://www.olympiccombat.io",
