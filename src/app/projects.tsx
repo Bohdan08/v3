@@ -5,7 +5,7 @@ const PROJECTS_LIST = [
   // {
   //   title: "TheTenn",
   //   link: "https://www.thetenn.com",
-  //   description: `Web app (20,000+ unique users) 
+  //   description: `Web app (20,000+ unique users)
   //                 that promotes a new financial system in the USA.`,
 
   //   imgLink: "/thetenn.webp",
@@ -42,10 +42,11 @@ const PROJECTS_LIST = [
     technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
   },
   {
-    title: "ProEmailer",
-    link: "https://pro-stack-landing-page.vercel.app",
-    description: `AI powered startup that helps people to handle their emails.`,
-    imgLink: "/proStack.webp",
+    title: "Sphiros",
+    link: "https://www.sphiros.com",
+    description: `Sphiros is building a platform that empowers players 
+              by allowing them to transform their gaming achievements into real-life rewards.`,
+    imgLink: "/sphiros.webp",
     technologies: [
       "React",
       "Next.js",
@@ -56,6 +57,21 @@ const PROJECTS_LIST = [
       "Mailchimp",
     ],
   },
+  // {
+  //   title: "ProEmailer",
+  //   link: "https://pro-stack-landing-page.vercel.app",
+  //   description: `AI powered startup that helps people to handle their emails.`,
+  //   imgLink: "/proStack.webp",
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "Tailwind",
+  //     "Firebase",
+  //     "Mailchimp",
+  //   ],
+  // },
 ];
 
 export default function Projects() {
