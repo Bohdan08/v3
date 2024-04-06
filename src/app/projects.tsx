@@ -2,28 +2,12 @@ import Image from "next/image";
 import React from "react";
 
 const PROJECTS_LIST = [
-  // {
-  //   title: "TheTenn",
-  //   link: "https://www.thetenn.com",
-  //   description: `Web app (20,000+ unique users)
-  //                 that promotes a new financial system in the USA.`,
-
-  //   imgLink: "/thetenn.webp",
-  //   technologies: [
-  //     "React",
-  //     "Next.js",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Tailwind",
-  //     "Firebase",
-  //     "Mailchimp",
-  //   ],
-  // },
   {
-    title: "Olympic Combat",
-    link: "https://www.olympiccombat.io",
-    description: `Web app (1,000+ unique users) that promotes martial arts for kids in Dubai.`,
-    imgLink: "/olympicCombat.webp",
+    title: "TheTenn",
+    link: "https://www.thetenn.com",
+    description: `USA based modern neobank.`,
+
+    imgLink: "/thetenn.webp",
     technologies: [
       "React",
       "Next.js",
@@ -35,11 +19,19 @@ const PROJECTS_LIST = [
     ],
   },
   {
-    title: "Pesto",
-    link: "https://join.getpesto.com",
-    description: `The first credit card that can be secured with valuables or cash as collateral.`,
-    imgLink: "/pesto.png",
-    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
+    title: "Olympic Combat",
+    link: "https://www.olympiccombat.io",
+    description: `Martial Arts for kids in Dubai.`,
+    imgLink: "/olympicCombat.webp",
+    technologies: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind",
+      "Firebase",
+      "Mailchimp",
+    ],
   },
   {
     title: "Sphiros",
@@ -56,6 +48,13 @@ const PROJECTS_LIST = [
       "Firebase",
       "Mailchimp",
     ],
+  },
+  {
+    title: "Pesto",
+    link: "https://join.getpesto.com",
+    description: `The first credit card that can be secured with valuables or cash as collateral.`,
+    imgLink: "/pesto.png",
+    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
   },
   // {
   //   title: "ProEmailer",
