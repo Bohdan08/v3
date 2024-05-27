@@ -156,6 +156,23 @@ const HEADER_LIST = ["Year", "Project", "Tech", "Link", "Source"];
 const PROJECTS_LIST = [
   {
     year: 2024,
+    project: "Workout Tracker",
+    technologies: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "Firebase",
+    ],
+    link: "https://www.fittrackmate.com",
+    source: {
+      provider: "Github",
+      link: "https://github.com/Bohdan08/workout-tracker",
+    },
+  },
+  {
+    year: 2024,
     project: "Sphiros",
     technologies: [
       "Next.js",
