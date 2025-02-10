@@ -7,10 +7,7 @@ const EXPERIENCE_LIST = [
     company: "Scotiabank",
     companyLink: "https://www.scotiabank.com",
     description: `Building and shipping features for Scotiabank web applications,  
-                  including Scotiabank Help Centre and Online Booking Appointment.
-                  Each web application has over 1M MAU and 
-                  loads under 2 seconds with test coverage 
-                  over 90%.`,
+                  including Scotiabank Help Centre, Universal Search, Search Transactions and Online Booking Appointment.`,
     projects: [
       { name: "Help Centre", link: "https://help.scotiabank.com" },
       {
