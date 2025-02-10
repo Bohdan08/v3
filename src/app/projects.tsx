@@ -2,20 +2,38 @@ import Image from "next/image";
 import React from "react";
 
 const PROJECTS_LIST = [
-  {
-    title: "TheTenn",
-    link: "https://www.thetenn.com",
-    description: `USA based modern neobank.`,
+  // {
+  //   title: "TheTenn",
+  //   link: "https://www.thetenn.com",
+  //   description: `USA based modern neobank.`,
 
-    imgLink: "/thetenn.webp",
+  //   imgLink: "/thetenn.webp",
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "Tailwind",
+  //     "Firebase",
+  //     "Mailchimp",
+  //   ],
+  // },
+  {
+    title: "GoldRepublic",
+    link: "https://uk.goldrepublic.com/",
+    description: `GoldRepublic is a premier European precious metals investment platform specialising in physical gold, silver, and platinum bullion.`,
+    // imgLink: "https://d3k81ch9hvuctc.cloudfront.net/company/RnW6wD/images/8ff00fc4-ba03-42f4-a364-f8b3de0c47f5.png",
+    imgLink: "/stacked-gold.jpg",
     technologies: [
-      "React",
       "Next.js",
+      "React",
       "JavaScript",
       "TypeScript",
       "Tailwind",
       "Firebase",
-      "Mailchimp",
+      "Contentful",
+      "Google Analytics",
+      "A/B Testing",
     ],
   },
   {
@@ -33,29 +51,45 @@ const PROJECTS_LIST = [
       "Mailchimp",
     ],
   },
+
   {
-    title: "Sphiros",
-    link: "https://www.sphiros.com",
-    description: `Sphiros is building a platform that empowers players 
-              by allowing them to transform their gaming achievements into real-life rewards.`,
-    imgLink: "/sphiros.webp",
+    title: "ERA",
+    link: "https://join.era.app",
+    description: `AI budgeting platform.`,
+    imgLink: "/polygon-preview.svg",
     technologies: [
       "React",
       "Next.js",
       "JavaScript",
       "TypeScript",
       "Tailwind",
-      "Firebase",
-      "Mailchimp",
+      "A/B testing",
+      "Amplitude Analytics",
     ],
   },
-  {
-    title: "Pesto",
-    link: "https://join.getpesto.com",
-    description: `The first credit card that can be secured with valuables or cash as collateral.`,
-    imgLink: "/pesto.png",
-    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
-  },
+  // {
+  //   title: "Sphiros",
+  //   link: "https://www.sphiros.com",
+  //   description: `Sphiros is building a platform that empowers players
+  //             by allowing them to transform their gaming achievements into real-life rewards.`,
+  //   imgLink: "/sphiros.webp",
+  //   technologies: [
+  //     "React",
+  //     "Next.js",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "Tailwind",
+  //     "Firebase",
+  //     "Mailchimp",
+  //   ],
+  // },
+  // {
+  //   title: "Pesto",
+  //   link: "https://join.getpesto.com",
+  //   description: `The first credit card that can be secured with valuables or cash as collateral.`,
+  //   imgLink: "/pesto.png",
+  //   technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
+  // },
   // {
   //   title: "ProEmailer",
   //   link: "https://pro-stack-landing-page.vercel.app",
