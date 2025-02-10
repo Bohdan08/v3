@@ -20,7 +20,7 @@ const PROJECTS_LIST = [
   // },
   {
     title: "GoldRepublic",
-    link: "https://uk.goldrepublic.com/",
+    link: "https://uk.goldrepublic.com",
     description: `GoldRepublic is a premier European precious metals investment platform specialising in physical gold, silver, and platinum bullion.`,
     // imgLink: "https://d3k81ch9hvuctc.cloudfront.net/company/RnW6wD/images/8ff00fc4-ba03-42f4-a364-f8b3de0c47f5.png",
     imgLink: "/stacked-gold.jpg",

@@ -15,13 +15,8 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4">
-          Hey there! I&apos;m a web development enthusiast who kicked off the
-          coding journey back in 2011 when I was 14. I was making simple
-          webpages with HTML and CSS. This hobby made me to pursue a degree in
-          computer programming. The path wasn&apos;t always smooth during my
-          computer studying in the university, with its fair share of ups and
-          downs. That being said, in 2018, I made a decisive choice to focus on
-          web development career.
+          I&apos;m a developer passionate about creating web products and
+          delivering smooth digital experiences.
         </p>
         <p className="mb-4">
           In 2019 I landed my first full time job at{" "}

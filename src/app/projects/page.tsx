@@ -156,6 +156,54 @@ const HEADER_LIST = ["Year", "Project", "Tech", "Link", "Source"];
 const PROJECTS_LIST = [
   {
     year: 2024,
+    project: "ERA",
+    technologies: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind",
+      "A/B testing",
+      "Amplitude Analytics",
+    ],
+    link: "https://join.era.app",
+    source: {
+      provider: "",
+      link: "",
+    },
+  },
+  {
+    year: 2024,
+    project: "GoldRepublic",
+    technologies: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind",
+      "Firebase",
+      "Contentful",
+      "Google Analytics",
+      "A/B Testing",
+    ],
+    link: "https://uk.goldrepublic.com",
+    source: {
+      provider: "",
+      link: "",
+    },
+  },
+  {
+    year: 2024,
+    project: "Pesto",
+    technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
+    link: "https://join.getpesto.com",
+    source: {
+      provider: "",
+      link: "",
+    },
+  },
+  {
+    year: 2024,
     project: "Workout Tracker",
     technologies: [
       "Next.js",
