@@ -1,111 +1,90 @@
-import Image from "next/image";
 import React from "react";
 
-const PROJECTS_LIST = [
-  // {
-  //   title: "TheTenn",
-  //   link: "https://www.thetenn.com",
-  //   description: `USA based modern neobank.`,
+const GITHUB = "https://github.com/bohdan08";
 
-  //   imgLink: "/thetenn.webp",
-  //   technologies: [
-  //     "React",
-  //     "Next.js",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Tailwind",
-  //     "Firebase",
-  //     "Mailchimp",
-  //   ],
-  // },
+type FeaturedProject = {
+  id: string;
+  title: string;
+  href: string;
+  description: string;
+  technologies: string[];
+  thumbSrc: string;
+  thumbLabel: string;
+  /** Shown as a small label when the public site is no longer the canonical URL */
+  archive?: boolean;
+};
+
+const FEATURED: FeaturedProject[] = [
   {
-    title: "GoldRepublic",
-    link: "https://uk.goldrepublic.com",
-    description: `GoldRepublic is a premier European precious metals investment platform specialising in physical gold, silver, and platinum bullion.`,
-    // imgLink: "https://d3k81ch9hvuctc.cloudfront.net/company/RnW6wD/images/8ff00fc4-ba03-42f4-a364-f8b3de0c47f5.png",
-    imgLink: "/stacked-gold.jpg",
+    id: "v14",
+    title: "V14® Longevity Reds",
+    href: "https://tryv14.youthandearth.com/",
+    description:
+      "High-conversion longevity supplement storefront for Youth & Earth—product storytelling, subscriptions, and performance work that has stayed live and stable.",
     technologies: [
       "Next.js",
       "React",
-      "JavaScript",
       "TypeScript",
       "Tailwind",
-      "Firebase",
-      "Contentful",
-      "Google Analytics",
-      "A/B Testing",
+      "E-commerce",
     ],
+    thumbSrc: "/v14-icon.svg",
+    thumbLabel: "Open V14 storefront",
   },
   {
-    title: "Olympic Combat",
-    link: "https://www.olympiccombat.io",
-    description: `Martial Arts for kids in Dubai.`,
-    imgLink: "/olympicCombat.webp",
+    id: "finom",
+    title: "Finom — marketing landing",
+    href: "https://finom-lp-performance.vercel.app/",
+    description:
+      "A high-impact EU fintech marketing page: bold typography, video hero, trust metrics, testimonials, and pricing—tuned for performance and conversion. The campaign has wrapped and the main site has moved on; this Vercel deployment preserves the experience I shipped.",
     technologies: [
-      "React",
       "Next.js",
-      "JavaScript",
+      "React",
       "TypeScript",
       "Tailwind",
-      "Firebase",
-      "Mailchimp",
+      "Video",
+      "Performance",
     ],
+    thumbSrc: "/finom-logo.png",
+    thumbLabel: "Open Finom landing (archive)",
+    archive: true,
   },
-
   {
+    id: "era",
     title: "ERA",
-    link: "https://join.era.app",
-    description: `AI budgeting platform.`,
-    imgLink: "/polygon-preview.svg",
+    href: "https://join.era.app",
+    description:
+      "AI budgeting and money platform—onboarding, core product flows, experimentation, and analytics.",
     technologies: [
-      "React",
       "Next.js",
-      "JavaScript",
+      "React",
       "TypeScript",
       "Tailwind",
       "A/B testing",
-      "Amplitude Analytics",
+      "Amplitude",
     ],
+    thumbSrc: "/polygon-preview.svg",
+    thumbLabel: "Open ERA",
   },
-  // {
-  //   title: "Sphiros",
-  //   link: "https://www.sphiros.com",
-  //   description: `Sphiros is building a platform that empowers players
-  //             by allowing them to transform their gaming achievements into real-life rewards.`,
-  //   imgLink: "/sphiros.webp",
-  //   technologies: [
-  //     "React",
-  //     "Next.js",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Tailwind",
-  //     "Firebase",
-  //     "Mailchimp",
-  //   ],
-  // },
-  // {
-  //   title: "Pesto",
-  //   link: "https://join.getpesto.com",
-  //   description: `The first credit card that can be secured with valuables or cash as collateral.`,
-  //   imgLink: "/pesto.png",
-  //   technologies: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind"],
-  // },
-  // {
-  //   title: "ProEmailer",
-  //   link: "https://pro-stack-landing-page.vercel.app",
-  //   description: `AI powered startup that helps people to handle their emails.`,
-  //   imgLink: "/proStack.webp",
-  //   technologies: [
-  //     "React",
-  //     "Next.js",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Tailwind",
-  //     "Firebase",
-  //     "Mailchimp",
-  //   ],
-  // },
 ];
+
+function ExternalLinkIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+      aria-hidden="true"
+    >
+      <path
+        fillRule="evenodd"
+        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+}
 
 export default function Projects() {
   return (
@@ -120,39 +99,52 @@ export default function Projects() {
         </h2>
       </div>
       <div>
+        <p className="mb-8 max-w-prose text-sm leading-normal text-slate-500">
+          Live products plus one retired campaign I still host on Vercel so the
+          work stays viewable. Older experiments and repos are on{" "}
+          <a
+            href={GITHUB}
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium text-slate-400 underline decoration-slate-600 underline-offset-2 transition hover:text-blue-300 hover:decoration-blue-400/50"
+          >
+            GitHub
+          </a>
+          .
+        </p>
         <ul className="group/list">
-          {PROJECTS_LIST.map(
-            ({ title, link, description, technologies, imgLink }) => (
-              <li key={title} className="mb-12">
-                <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+          {FEATURED.map(
+            ({
+              id,
+              title,
+              href,
+              description,
+              technologies,
+              thumbSrc,
+              thumbLabel,
+              archive,
+            }) => (
+              <li key={id} className="mb-12">
+                <div className="group relative grid gap-6 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-6 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                   <div className="z-10 sm:order-2 sm:col-span-6">
                     <h3>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-blue-300 focus-visible:text-blue-300  group/link text-base"
-                        href={link}
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-blue-300 focus-visible:text-blue-300 group/link text-base"
+                        href={href}
                         target="_blank"
                         rel="noreferrer"
-                        aria-label={title}
+                        aria-label={`${title} (opens in new tab)`}
                       >
                         <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                        <span>
-                          {title}{" "}
-                          <span className="inline-block">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                              aria-hidden="true"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                clipRule="evenodd"
-                              />
-                            </svg>
-                          </span>
+                        <span className="inline-flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                          <span>{title}</span>
+                          {archive ? (
+                            <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-500">
+                              Vercel archive
+                            </span>
+                          ) : null}
+                          <ExternalLinkIcon />
                         </span>
                       </a>
                     </h3>
@@ -170,34 +162,41 @@ export default function Projects() {
                       ))}
                     </ul>
                   </div>
-                  <div>
-                    <Image
-                      src={imgLink}
-                      alt=""
-                      width={200}
-                      height={100}
-                      className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                    />
+                  <div className="z-10 sm:order-1 sm:col-span-2 sm:flex sm:justify-start">
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex h-28 w-28 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-slate-800/90 to-slate-900/90 p-5 ring-1 ring-slate-200/10 transition group-hover:ring-slate-200/25"
+                      aria-label={thumbLabel}
+                    >
+                      <img
+                        src={thumbSrc}
+                        alt=""
+                        width={72}
+                        height={72}
+                        className="h-[4.5rem] w-[4.5rem] object-contain drop-shadow-md"
+                      />
+                    </a>
                   </div>
                 </div>
               </li>
             )
           )}
         </ul>
-        <div className="mt-12">
+        <div className="mt-8">
           <a
             className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
-            aria-label="View More Projects"
-            href="/projects"
+            aria-label="Bohdan Martyniuk on GitHub"
+            href={GITHUB}
+            target="_blank"
+            rel="noreferrer"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-blue-300 motion-reduce:transition-none">
-                View More Projects{" "}
+                GitHub profile
               </span>
               <span className="whitespace-nowrap">
-                {/* <span className="border-b border-transparent pb-px transition group-hover:border-blue-300 motion-reduce:transition-none">
-                  Archive
-                </span> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"

@@ -15,39 +15,77 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4">
-          I&apos;m a developer passionate about creating web products and
-          delivering smooth digital experiences.
+          I&apos;m a full-stack engineer who ships identity and access platforms
+          end to end: infrastructure, integrations, UI quality, and reliable
+          releases—not only front-of-house features.
         </p>
         <p className="mb-4">
-          In 2019 I landed my first full time job at{" "}
+          Today I&apos;m on the{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>CIAM</span> team at{" "}
+          <a
+            className={LINK_STYLE}
+            href="https://www.manulife.ca"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Manulife
+          </a>
+          , working across{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>
+            Forgerock deployments
+          </span>
+          , <span className={HIGH_LIGHT_TEXT_STYLE}>Kubernetes</span>,{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>Terraform</span>, UI
+          leadership, and automation including{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>WebdriverIO</span>. I use
+          modern AI tooling day to day to move faster on design, code, and
+          validation while keeping ownership of architecture and production
+          behavior.
+        </p>
+        <p className="mb-4">
+          Earlier roles spanned{" "}
+          <a
+            className={LINK_STYLE}
+            href="https://www.scotiabank.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Scotiabank
+          </a>
+          ,{" "}
+          <a
+            className={LINK_STYLE}
+            href="https://www.bmo.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            BMO
+          </a>
+          , and{" "}
           <a
             className={LINK_STYLE}
             href="https://www.mpac.ca"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
             MPAC
-          </a>
-          . Since then, I&apos;ve been fortunate to contribute my skills to
-          impactful projects for{" "}
-          <span className={HIGH_LIGHT_TEXT_STYLE}>
-            {" "}
-            the government non-profit organization
+          </a>{" "}
+          across public sites, banking experiences, and data-heavy internal
+          products.
+        </p>
+        <p className="mb-4 text-sm leading-relaxed text-slate-500">
+          Certifications (recent):{" "}
+          <span className="text-slate-400">
+            Certified Kubernetes Application Developer (CKAD)
           </span>
-          ,<span className={HIGH_LIGHT_TEXT_STYLE}> major Canadian banks</span>,
-          and <span className={HIGH_LIGHT_TEXT_STYLE}> exciting startups</span>.
-          Currently, I&apos;m involved in building web products at
-          <a
-            className={LINK_STYLE}
-            href="https://www.scotiabank.com/ca/en/personal.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            Scotiabank
-          </a>
-          .
+          ;{" "}
+          <span className="text-slate-400">
+            AWS Certified Solutions Architect – Associate
+          </span>{" "}
+          and{" "}
+          <span className="text-slate-400">AWS Cloud Practitioner</span>. AWS
+          is foundational context for me; day to day I lean more on K8s,
+          Terraform, and the CIAM stack above.
         </p>
       </div>
     </section>

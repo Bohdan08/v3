@@ -7,9 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Bohdan Martyniuk",
-  description: `Bohdan Martyniuk is an experienced full-stack 
-                software engineer focused on building 
-                fast and accessible products for the web.`,
+  description:
+    "Senior full-stack developer at Manulife (CIAM): Kubernetes, Terraform, Forgerock, React, and AI-assisted engineering.",
 };
 
 export default function RootLayout({

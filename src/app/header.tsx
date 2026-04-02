@@ -30,10 +30,11 @@ export default function Header() {
           <a href="/">Bohdan Martyniuk</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Experienced Full-Stack Engineer
+          Senior Full-Stack Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I build fast, accessible and user-friendly products for the web.
+          CIAM platforms, cloud-native delivery, and product UI—with AI-assisted
+          workflows from design through tests and ops.
         </p>
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
           <ul className="mt-16 w-max">
