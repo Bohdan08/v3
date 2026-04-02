@@ -24,7 +24,7 @@ export default function About() {
           <span className={HIGH_LIGHT_TEXT_STYLE}>CIAM</span> team at{" "}
           <a
             className={LINK_STYLE}
-            href="https://www.manulife.ca"
+            href="https://www.linkedin.com/company/manulife-financial/"
             target="_blank"
             rel="noreferrer"
           >
@@ -46,7 +46,7 @@ export default function About() {
           Earlier roles spanned{" "}
           <a
             className={LINK_STYLE}
-            href="https://www.scotiabank.com"
+            href="https://www.linkedin.com/company/scotiabank/"
             target="_blank"
             rel="noreferrer"
           >
@@ -55,7 +55,7 @@ export default function About() {
           ,{" "}
           <a
             className={LINK_STYLE}
-            href="https://www.bmo.com"
+            href="https://www.linkedin.com/company/bank-of-montreal/"
             target="_blank"
             rel="noreferrer"
           >
@@ -64,7 +64,7 @@ export default function About() {
           , and{" "}
           <a
             className={LINK_STYLE}
-            href="https://www.mpac.ca"
+            href="https://www.linkedin.com/company/mpac"
             target="_blank"
             rel="noreferrer"
           >

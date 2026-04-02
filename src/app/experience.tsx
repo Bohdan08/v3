@@ -5,7 +5,7 @@ const EXPERIENCE_LIST = [
     time: "2025 – present",
     title: "Senior Full-Stack Developer",
     company: "Manulife",
-    companyLink: "https://www.manulife.ca",
+    companyLink: "https://www.linkedin.com/company/manulife-financial/",
     description: `CIAM delivery: Forgerock platform work, Kubernetes deployments and troubleshooting, 
                   Terraform-managed infrastructure, UI direction and code review, project leadership when needed, 
                   and end-to-end quality with tools like WebdriverIO.`,
@@ -24,7 +24,7 @@ const EXPERIENCE_LIST = [
     time: "Dec 2021 – 2024",
     title: "Full-Stack Software Engineer",
     company: "Scotiabank",
-    companyLink: "https://www.scotiabank.com",
+    companyLink: "https://www.linkedin.com/company/scotiabank/",
     description: `Shipped features for Scotiabank web applications, including Help Centre, Universal Search, 
                   Search Transactions, and Online Booking.`,
     projects: [
@@ -47,7 +47,7 @@ const EXPERIENCE_LIST = [
     time: "July 2021 – Dec 2021",
     title: "Front-End Software Engineer",
     company: "BMO",
-    companyLink: "https://www.bmo.com",
+    companyLink: "https://www.linkedin.com/company/bank-of-montreal/",
     description: `Built web pages that are responsive and performant for BMO.com 
                   and BMO Harris.com public sites that serve millions 
                   of users on a daily basis by using React.js and TypeScript.`,
@@ -57,7 +57,7 @@ const EXPERIENCE_LIST = [
     time: "May 2019 – July 2021",
     title: "Full-Stack Software Engineer",
     company: "MPAC",
-    companyLink: "https://www.mpac.ca",
+    companyLink: "https://www.linkedin.com/company/mpac",
     description: `Developed analytics dynamic dashboards and applications using JavaScript/TypeScript, React, and Redux.`,
     technologies: [
       "React",
