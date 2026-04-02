@@ -17,7 +17,7 @@ export default function About() {
         <p className="mb-4">
           I&apos;m a full-stack engineer who ships identity and access platforms
           end to end: infrastructure, integrations, UI quality, and reliable
-          releases—not only front-of-house features.
+          releases, not only front-of-house features.
         </p>
         <p className="mb-4">
           Today I&apos;m on the{" "}

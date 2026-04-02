@@ -33,7 +33,7 @@ export default function Header() {
           Senior Full-Stack Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          CIAM platforms, cloud-native delivery, and product UI—with AI-assisted
+          CIAM platforms, cloud-native delivery, and product UI, with AI-assisted
           workflows from design through tests and ops.
         </p>
         <nav className="nav hidden lg:block" aria-label="In-page jump links">

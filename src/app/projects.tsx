@@ -20,7 +20,7 @@ const FEATURED: FeaturedProject[] = [
     title: "V14® Longevity Reds",
     href: "https://tryv14.youthandearth.com/",
     description:
-      "High-conversion longevity supplement storefront for Youth & Earth—product storytelling, subscriptions, and performance work that has stayed live and stable.",
+      "High-conversion longevity supplement storefront for Youth & Earth: product storytelling, subscriptions, and performance work that has stayed live and stable.",
     technologies: [
       "Next.js",
       "React",
@@ -33,10 +33,10 @@ const FEATURED: FeaturedProject[] = [
   },
   {
     id: "finom",
-    title: "Finom — marketing landing",
+    title: "Finom (marketing landing)",
     href: "https://finom-lp-performance.vercel.app/",
     description:
-      "A high-impact EU fintech marketing page: bold typography, video hero, trust metrics, testimonials, and pricing—tuned for performance and conversion. The campaign has wrapped and the main site has moved on; this Vercel deployment preserves the experience I shipped.",
+      "A high-impact EU fintech marketing page: bold typography, video hero, trust metrics, testimonials, and pricing, tuned for performance and conversion. The campaign has wrapped and the main site has moved on; this Vercel deployment preserves the experience I shipped.",
     technologies: [
       "Next.js",
       "React",
@@ -54,7 +54,7 @@ const FEATURED: FeaturedProject[] = [
     title: "ERA",
     href: "https://join.era.app",
     description:
-      "AI budgeting and money platform—onboarding, core product flows, experimentation, and analytics.",
+      "AI budgeting and money platform: onboarding, core product flows, experimentation, and analytics.",
     technologies: [
       "Next.js",
       "React",

@@ -28,7 +28,7 @@ export default function ProjectsPage() {
             Other work
           </h1>
           <p className="mt-6 max-w-prose text-sm leading-relaxed text-slate-400">
-            I trimmed the old project table—years of client URLs and demos that
+            I trimmed the old project table: years of client URLs and demos that
             no longer represent what&apos;s live. Featured work on the home page
             includes{" "}
             <a
