@@ -30,20 +30,21 @@ export default function About() {
           >
             Manulife
           </a>
-          , working across{" "}
-          <span className={HIGH_LIGHT_TEXT_STYLE}>
-            Forgerock deployments
-          </span>
-          , <span className={HIGH_LIGHT_TEXT_STYLE}>Kubernetes</span>,{" "}
-          <span className={HIGH_LIGHT_TEXT_STYLE}>Terraform</span>, UI
-          leadership, and automation including{" "}
+          . Most of my time goes into product engineering with{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>React</span>,{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>Next.js</span>, and{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>Node.js</span>
+          : features, internal tools, and UI quality alongside platform work
+          in <span className={HIGH_LIGHT_TEXT_STYLE}>Kubernetes</span> and{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>Terraform</span>, plus test
+          automation with{" "}
           <span className={HIGH_LIGHT_TEXT_STYLE}>WebdriverIO</span>. I use
           modern AI tooling day to day to move faster on design, code, and
-          validation while keeping ownership of architecture and production
-          behavior.
+          validation while still owning architecture and how things behave in
+          production.
         </p>
         <p className="mb-4">
-          Earlier roles spanned{" "}
+          Earlier roles at{" "}
           <a
             className={LINK_STYLE}
             href="https://www.linkedin.com/company/scotiabank/"
@@ -70,8 +71,8 @@ export default function About() {
           >
             MPAC
           </a>{" "}
-          across public sites, banking experiences, and data-heavy internal
-          products.
+          covered public sites, core banking experiences, and data-heavy
+          internal products.
         </p>
         <p className="mb-4 text-sm leading-relaxed text-slate-500">
           Certifications (recent):{" "}
@@ -84,8 +85,8 @@ export default function About() {
           </span>{" "}
           and{" "}
           <span className="text-slate-400">AWS Cloud Practitioner</span>. AWS
-          is foundational context for me; day to day I lean more on K8s,
-          Terraform, and the CIAM stack above.
+          gives useful context; in practice I spend more time on Kubernetes,
+          Terraform, and the React, Next.js, and Node.js work described above.
         </p>
       </div>
     </section>
