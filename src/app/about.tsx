@@ -35,13 +35,24 @@ export default function About() {
           <span className={HIGH_LIGHT_TEXT_STYLE}>Next.js</span>, and{" "}
           <span className={HIGH_LIGHT_TEXT_STYLE}>Node.js</span>
           : features, internal tools, and UI quality alongside platform work
-          in <span className={HIGH_LIGHT_TEXT_STYLE}>Kubernetes</span> and{" "}
-          <span className={HIGH_LIGHT_TEXT_STYLE}>Terraform</span>, plus test
+          in <span className={HIGH_LIGHT_TEXT_STYLE}>Kubernetes</span>,{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>Terraform</span>, and{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>Azure</span>, plus test
           automation with{" "}
-          <span className={HIGH_LIGHT_TEXT_STYLE}>WebdriverIO</span>. I use
-          modern AI tooling day to day to move faster on design, code, and
-          validation while still owning architecture and how things behave in
-          production.
+          <span className={HIGH_LIGHT_TEXT_STYLE}>WebdriverIO</span>. I work
+          with <span className={HIGH_LIGHT_TEXT_STYLE}>ForgeRock</span>{" "}
+          and the wider CIAM layer for things like{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>client onboarding</span>,{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>SAML</span>,{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>SSO</span>,{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>secret rotations</span>, and
+          related integrations. I also take on infra and operations when needed,
+          including{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>process automation</span>,{" "}
+          <span className={HIGH_LIGHT_TEXT_STYLE}>database upgrades</span>, and
+          other change work that touches our systems. I use modern AI tooling
+          day to day to move faster on design, code, and validation while owning
+          architecture and production behavior.
         </p>
         <p className="mb-4">
           Earlier roles at{" "}
@@ -86,7 +97,8 @@ export default function About() {
           and{" "}
           <span className="text-slate-400">AWS Cloud Practitioner</span>. AWS
           gives useful context; in practice I spend more time on Kubernetes,
-          Terraform, and the React, Next.js, and Node.js work described above.
+          Terraform, Azure, and the React, Next.js, and Node.js work described
+          above.
         </p>
       </div>
     </section>

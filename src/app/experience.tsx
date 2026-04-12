@@ -6,16 +6,18 @@ const EXPERIENCE_LIST = [
     title: "Senior Full-Stack Developer",
     company: "Manulife",
     companyLink: "https://www.linkedin.com/company/manulife-financial/",
-    description: `CIAM team: shipping and maintaining product surfaces with Next.js, React, and Node.js, plus UI direction, 
-                  code review, and project leadership when needed. Kubernetes deployments and troubleshooting, Terraform-managed 
-                  infrastructure, and end-to-end quality with WebdriverIO and CI/CD.`,
+    description: `CIAM team: Next.js, React, and Node.js for product surfaces, plus UI direction, code review, and project leadership when needed. 
+                  Hands-on CIAM operations such as secret rotations and related access or config changes. Kubernetes deployments and troubleshooting on Azure, 
+                  Terraform-managed infrastructure, ForgeRock when identity integrations need vendor tooling, and end-to-end quality with WebdriverIO and CI/CD. 
+                  Broader infra management when it lands on the team: automating operational processes, database upgrades, and similar change work.`,
     technologies: [
       "Next.js",
       "React",
-      "TypeScript",
       "Node.js",
       "Kubernetes",
+      "Azure",
       "Terraform",
+      "ForgeRock",
       "WebdriverIO",
       "CI/CD",
     ],
